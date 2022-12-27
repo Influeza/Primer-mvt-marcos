@@ -1,0 +1,25 @@
+{% load bootstrap5 %}
+
+{# Load CSS and JavaScript #}
+{% bootstrap_css %}
+{% bootstrap_javascript %}
+
+{# Display django.contrib.messages as Bootstrap alerts #}
+{% bootstrap_messages %}
+
+
+<ul class="nav bg-dark text-white p-5">
+  <h3>Registro de familiares</h3>
+</ul>
+
+{% block  cuerpo %}
+{% endblock %}
+
+<footer class="bg-dark text-white text-center text-lg-start">
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0);">
+    © 2022 Copyright: Marcos rojo - Campeon del mundo
+    <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
